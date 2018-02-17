@@ -5,7 +5,7 @@ SELFBOT SIMPLE RABBIT BOTS
 GET TOKEN :
 ----------
 - WIN10\t5.0.1\Rabbitsbot-PC\t5.0.1
-- http://101.255.95.249:6969/
+- http://101.255.95.249:6969
 - Cara Install Bot RABBITS SELFBOTS :
 ----------
 Di C9 :
