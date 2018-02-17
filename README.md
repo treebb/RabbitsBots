@@ -23,7 +23,7 @@ Di C9 :
 - Ketik -> sudo pip install googletrans
 - Ketik -> sudo pip install tweepy
 - Ketik -> sudo pip install html5lib
-- Ketik -> sudo pip install urllib
+- Ketik -> sudo pip install urllib3
 - Ketik -> git clone https://github.com/bayu2309/RabbitsBots
 - Ketik -> cd RabbitsBots
 - Ketik -> python Rabbit.py
@@ -41,7 +41,7 @@ Di Termux :
 - Ketik -> pip2 install googletrans
 - Ketik -> pip2 install tweepy
 - Ketik -> pip2 install html5lib
-- Ketik -> pip2 install urllib
+- Ketik -> pip2 install urllib3
 - Ketik -> git clone https://github.com/bayu2309/RabbitsBots
 - Ketik -> cd RabbitsBots
 - Ketik -> python Rabbit.py
