@@ -7,8 +7,8 @@ import requests
 from thrift.transport import THttpClient
 from thrift.protocol import TCompactProtocol
 
-from curve import LineService
-from curve.ttypes import *
+import LineService 
+from ttypes import *
 import tempfile
 
 class Channel:
@@ -18,8 +18,8 @@ class Channel:
     http_query_path = "/S4"
     channel_query_path = "/CH4"
 
-    UA = "Line/6.0.0 iPad4,1 9.0.2"
-    LA = "DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0"
+    UA = "Line/5.5.1"
+    LA = "WIN10\t5.0.1\Rabbitsbot-PC\t5.0.1"
 
     authToken = None
     mid = None
@@ -42,17 +42,17 @@ class Channel:
         self.transport.path = self.channel_query_path
 
     def login(self):
-        result = self.client.issueChannelToken("1341209950")
+        result = self.client.issueChannelToken("1341209850")
 
         self.channel_access_token = result.channelAccessToken
         self.token = result.token
         self.obs_token = result.obsToken
         self.refresh_token = result.refreshToken
 
-        print "channelAccessToken:" + result.channelAccessToken
-        print "token:" + result.token
-        print "obs_token:" + result.obsToken
-        print "refreshToken:" + result.refreshToken
+        #print "channelAccessToken:" + result.channelAccessToken
+        #print "token:" + result.token
+        #print "obs_token:" + result.obsToken
+        #print "refreshToken:" + result.refreshToken
 
     def new_post(self, text):
 
