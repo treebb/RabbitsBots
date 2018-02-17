@@ -5,8 +5,8 @@ sys.path.insert(0, path)
 from thrift.transport import THttpClient
 from thrift.protocol import TCompactProtocol
 
-from curve import LineService
-from curve.ttypes import *
+import LineService
+from ttypes import *
 
 class Poll:
 
@@ -18,8 +18,8 @@ class Poll:
   host = "gd2.line.naver.jp";
   port = 443;
 
-  UA = "Line/6.0.0 iPad4,1 9.0.2"
-  LA = "DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0"
+  UA = "Line/5.5.1"
+  LA = "WIN10\t5.0.1\Rabbitsbot-PC\t5.0.1"
 
   rev = 0
 
