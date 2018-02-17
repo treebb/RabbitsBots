@@ -23,8 +23,9 @@ Di C9 :
 - Ketik -> git clone https://github.com/bayu2309/RabbitsBots
 - Ketik -> cd RabbitsBots
 - Ketik -> python Rabbit.py
+----------
 Di Termux :
-
+----------
 - Ketik -> pkg update
 - Ketik -> pkg install git
 - Ketik -> pkg install python2
@@ -37,16 +38,18 @@ Di Termux :
 - Ketik -> git clone https://github.com/bayu2309/RabbitsBots
 - Ketik -> cd RabbitsBots
 - Ketik -> python Rabbit.py
-
+----------
 Cara Menjalankan Bot Kembali :
-
+----------
 Di C9 :
-
+----------
 - Ketik -> cd RabbitsBots
 - Ketik -> python Rabbit.py
+----------
 Di Termux :
-
+----------
 - Ketik -> cd RabbitsBots
 - Ketik -> python Rabbit.py
-
+----------
 THANK FOR PSD TEAM BOTS N TEAM TCR
+----------
