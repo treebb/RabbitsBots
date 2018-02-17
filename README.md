@@ -19,7 +19,11 @@ Di C9 :
 - Ketik -> sudo pip install requests==2.5.3
 - Ketik -> sudo pip install bs4
 - Ketik -> sudo pip install gtts
+- Ketik -> sudo pip install tts
 - Ketik -> sudo pip install googletrans
+- Ketik -> sudo pip install tweepy
+- Ketik -> sudo pip install html5lib
+- Ketik -> sudo pip install urllib
 - Ketik -> git clone https://github.com/bayu2309/RabbitsBots
 - Ketik -> cd RabbitsBots
 - Ketik -> python Rabbit.py
@@ -35,6 +39,9 @@ Di Termux :
 - Ketik -> pip2 install bs4
 - Ketik -> pip2 install gtts
 - Ketik -> pip2 install googletrans
+- Ketik -> pip2 install tweepy
+- Ketik -> pip2 install html5lib
+- Ketik -> pip2 install urllib
 - Ketik -> git clone https://github.com/bayu2309/RabbitsBots
 - Ketik -> cd RabbitsBots
 - Ketik -> python Rabbit.py
@@ -53,3 +60,4 @@ Di Termux :
 ----------
 THANK FOR PSD TEAM BOTS N TEAM TCR
 ----------
+ID LINE: 23_09_1993
